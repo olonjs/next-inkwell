@@ -1,0 +1,91 @@
+{
+  "name": "Inkwell Journal",
+  "tokens": {
+    "colors": {
+      "background": "#101014",
+      "foreground": "#ece9e2",
+      "card": "#17171d",
+      "card-foreground": "#ece9e2",
+      "elevated": "#1d1d25",
+      "overlay": "#22222b",
+      "primary": "#e0745c",
+      "primary-foreground": "#14100e",
+      "primary-light": "#eb9480",
+      "primary-dark": "#b85a45",
+      "accent": "#9db4e8",
+      "accent-foreground": "#10131c",
+      "secondary": "#23232c",
+      "secondary-foreground": "#d8d5cd",
+      "muted": "#1b1b22",
+      "muted-foreground": "#97948c",
+      "border": "#26262f",
+      "border-strong": "#34343f",
+      "input": "#1d1d25",
+      "ring": "#e0745c",
+      "destructive": "#e5484d",
+      "destructive-foreground": "#fff0f0",
+      "success": "#4cc38a",
+      "success-foreground": "#06130c",
+      "warning": "#f5b944",
+      "warning-foreground": "#171105",
+      "info": "#6ba6f5",
+      "info-foreground": "#081321"
+    },
+    "typography": {
+      "fontFamily": {
+        "primary": "'Instrument Sans', system-ui, sans-serif",
+        "mono": "'JetBrains Mono', monospace",
+        "display": "'Bricolage Grotesque', system-ui, sans-serif"
+      },
+      "wordmark": {
+        "fontFamily": "'Bricolage Grotesque', system-ui, sans-serif",
+        "weight": "800"
+      }
+    },
+    "borderRadius": { "sm": "4px", "md": "8px", "lg": "14px", "xl": "20px", "full": "9999px" },
+    "spacing": {
+      "container-max": "1200px",
+      "section-y": "96px",
+      "header-h": "80px",
+      "sidebar-w": "240px"
+    },
+    "zIndex": {
+      "base": "0", "elevated": "10", "dropdown": "100",
+      "sticky": "200", "overlay": "300", "modal": "400", "toast": "500"
+    },
+    "modes": {
+      "light": {
+        "colors": {
+          "background": "#faf8f4",
+          "foreground": "#1d1c1a",
+          "card": "#ffffff",
+          "card-foreground": "#1d1c1a",
+          "elevated": "#f2efe8",
+          "overlay": "#e8e4da",
+          "primary": "#c1543c",
+          "primary-foreground": "#fdf6f3",
+          "primary-light": "#d4765f",
+          "primary-dark": "#9c4230",
+          "accent": "#4a66b0",
+          "accent-foreground": "#f5f7fd",
+          "secondary": "#ece8df",
+          "secondary-foreground": "#37352f",
+          "muted": "#f0ede5",
+          "muted-foreground": "#6d6a61",
+          "border": "#e0dcd1",
+          "border-strong": "#c9c4b6",
+          "input": "#ffffff",
+          "ring": "#c1543c",
+          "destructive": "#d33c41",
+          "destructive-foreground": "#fff5f5",
+          "success": "#1f7a4d",
+          "success-foreground": "#f0fbf5",
+          "warning": "#a86a0b",
+          "warning-foreground": "#fffaf0",
+          "info": "#2563c4",
+          "info-foreground": "#f0f6ff"
+        }
+      }
+    }
+  }
+}

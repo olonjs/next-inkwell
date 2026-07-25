@@ -1,0 +1,75 @@
+{
+  "id": "home-page",
+  "slug": "home",
+  "meta": {
+    "title": "Inkwell Journal — Notes on the craft of software",
+    "description": "An editorial journal about design, engineering and process, built on OlonJS collections: every post and every tag is a first-class entity with its own page."
+  },
+  "sections": [
+    {
+      "id": "home-hero",
+      "type": "hero",
+      "data": {
+        "label": "An OlonJS collections demo",
+        "title": "Notes on the",
+        "titleHighlight": "craft of software",
+        "subtitle": "Essays on design, engineering and process — published as a living demo of cross-collection relations: every post belongs to many tags, and every tag knows its posts without storing them twice.",
+        "primaryCta": { "id": "home-hero-cta-1", "label": "Read the posts", "href": "/posts", "variant": "primary" },
+        "secondaryCta": { "id": "home-hero-cta-2", "label": "Browse topics", "href": "/tags", "variant": "secondary" },
+        "image": { "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=2000&q=80", "alt": "Fountain pen nib in sharp close-up over paper" }
+      },
+      "settings": { "paddingTop": "xl", "paddingBottom": "none" }
+    },
+    {
+      "id": "home-featured-posts",
+      "type": "posts-list",
+      "data": {
+        "label": "Fresh ink",
+        "title": "Latest from the desk",
+        "description": "The four most recent essays, pulled live from the posts collection and sorted by date.",
+        "variant": "bento",
+        "limit": 4,
+        "items": { "$ref": "../collections/posts/posts.json" }
+      },
+      "settings": { "paddingTop": "xl" }
+    },
+    {
+      "id": "home-tags",
+      "type": "tags-list",
+      "data": {
+        "label": "Topics",
+        "title": "Browse by topic",
+        "description": "Six tags, one collection. Each card links to a tag page that computes its own post list from the relation.",
+        "items": { "$ref": "../collections/tags/tags.json" }
+      },
+      "settings": {}
+    },
+    {
+      "id": "home-stats",
+      "type": "stats-band",
+      "data": {
+        "label": "The journal in numbers",
+        "title": "Small, deliberate, linked",
+        "stats": [
+          { "id": "stat-posts", "icon": "pen-line", "value": "8", "label": "Essays published, each in a posts collection entry" },
+          { "id": "stat-tags", "icon": "tag", "value": "6", "label": "Topics in the tags collection" },
+          { "id": "stat-relations", "icon": "sparkles", "value": "14", "label": "Post-to-tag links resolved at render time" },
+          { "id": "stat-authors", "icon": "users", "value": "4", "label": "Writers behind the desk" }
+        ]
+      },
+      "settings": {}
+    },
+    {
+      "id": "home-cta",
+      "type": "cta-banner",
+      "data": {
+        "label": "Start anywhere",
+        "title": "Pick a thread, pull it",
+        "description": "Every post links to its topics and every topic links back to its posts. That is the whole demo — and the whole point.",
+        "primaryCta": { "id": "home-cta-1", "label": "Read the latest", "href": "/posts", "variant": "primary" },
+        "secondaryCta": { "id": "home-cta-2", "label": "About this demo", "href": "/about", "variant": "secondary" }
+      },
+      "settings": { "paddingTop": "xl", "paddingBottom": "xl" }
+    }
+  ]
+}

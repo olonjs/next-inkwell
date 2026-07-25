@@ -1,0 +1,41 @@
+{
+  "id": "post-detail-page",
+  "slug": "posts/[slug]",
+  "collection": { "source": "posts", "paramKey": "slug" },
+  "meta": {
+    "title": "Post — Inkwell Journal essay detail",
+    "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "post-detail-body",
+      "type": "post-detail",
+      "data": {
+        "backLabel": "All posts",
+        "item": { "$ref": "collection:current" }
+      },
+      "settings": { "paddingTop": "xl" }
+    },
+    {
+      "id": "post-detail-related-tags",
+      "type": "related-tags",
+      "data": {
+        "label": "Relations demo",
+        "title": "Filed under",
+        "emptyLabel": "This post has no topics yet.",
+        "item": { "$ref": "collection:current" },
+        "tags": { "$ref": "../collections/tags/tags.json" }
+      },
+      "settings": {}
+    },
+    {
+      "id": "post-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Keep reading",
+        "primaryCta": { "id": "post-detail-cta-1", "label": "Back to the archive", "href": "/posts", "variant": "primary" }
+      },
+      "settings": { "paddingBottom": "xl" }
+    }
+  ]
+}

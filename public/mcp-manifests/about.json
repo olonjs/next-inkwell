@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "kind": "olonjs-page-mcp-manifest",
+  "generatedAt": "2026-07-25T17:03:23.872Z",
+  "slug": "about",
+  "title": "About Inkwell Journal and this collections demo",
+  "description": "Inkwell Journal is a working OlonJS demo: posts and tags live as separate collections, related through keys on the post side and resolved at render time.",
+  "contractHref": "/schemas/about.schema.json",
+  "transport": {
+    "kind": "window-message",
+    "requestType": "olonjs:webmcp:tool-call",
+    "resultType": "olonjs:webmcp:tool-result",
+    "target": "window"
+  },
+  "capabilities": {
+    "resources": [
+      {
+        "uri": "olon://pages/about",
+        "name": "About Inkwell Journal and this collections demo Data",
+        "mimeType": "application/json",
+        "description": "Structured content for the about page."
+      },
+      {
+        "uri": "olon://pages",
+        "name": "Site Map",
+        "mimeType": "application/json",
+        "description": "Structured content for the map of this site"
+      }
+    ]
+  },
+  "sectionTypes": [
+    "header",
+    "footer",
+    "page-hero",
+    "content-block",
+    "stats-band",
+    "cta-banner"
+  ],
+  "sectionInstances": [
+    {
+      "id": "global-header",
+      "type": "header",
+      "scope": "global",
+      "label": "header"
+    },
+    {
+      "id": "global-footer",
+      "type": "footer",
+      "scope": "global",
+      "label": "footer"
+    },
+    {
+      "id": "about-hero",
+      "type": "page-hero",
+      "scope": "local",
+      "label": "A journal that is also a diagram"
+    },
+    {
+      "id": "about-story",
+      "type": "content-block",
+      "scope": "local",
+      "label": "One source of truth per relation"
+    },
+    {
+      "id": "about-stats",
+      "type": "stats-band",
+      "scope": "local",
+      "label": "What powers the demo"
+    },
+    {
+      "id": "about-cta",
+      "type": "cta-banner",
+      "scope": "local",
+      "label": "See it in motion"
+    }
+  ],
+  "tools": [
+    {
+      "name": "update-section",
+      "description": "Update a section field in the Studio draft. Does not persist — call save when all updates are complete. Use sectionType to select the matching schema from sectionSchemas."
+    },
+    {
+      "name": "save",
+      "description": "Persist all pending draft changes using the active save mode (local file, hot save, or save2repo). Call once after all update-section calls are complete."
+    }
+  ]
+}

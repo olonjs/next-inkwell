@@ -1,0 +1,122 @@
+{
+  "id": "post-detail-page",
+  "slug": "posts/tools-that-disappear",
+  "collection": {
+    "source": "posts",
+    "paramKey": "slug"
+  },
+  "meta": {
+    "title": "Post — Inkwell Journal essay detail",
+    "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "post-detail-body",
+      "type": "post-detail",
+      "data": {
+        "backLabel": "All posts",
+        "item": {
+          "id": "tools-that-disappear",
+          "title": "Good tools disappear",
+          "excerpt": "The highest compliment for a tool is that nobody remembers using it. On interfaces that get out of the way.",
+          "body": "You do not think about a doorknob when you open a door. That is the standard: a tool succeeded when the person forgot it was there and remembers only the work.\n\nEvery affordance we add is tested against one question — does this move attention toward the content or toward the chrome? Toolbars lost that argument here more than once.\n\nInvisible does not mean minimal for its own sake. It means every visible element earns its place by carrying meaning the content cannot carry alone.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=1600&q=80",
+            "alt": "Minimal workspace with a laptop, plant and empty desk surface"
+          },
+          "date": "2026-04-09",
+          "author": "Tomas Lindgren",
+          "readingTime": "5 min",
+          "tags": [
+            "tooling",
+            "design"
+          ]
+        }
+      },
+      "settings": {
+        "paddingTop": "xl"
+      }
+    },
+    {
+      "id": "post-detail-related-tags",
+      "type": "related-tags",
+      "data": {
+        "label": "Relations demo",
+        "title": "Filed under",
+        "emptyLabel": "This post has no topics yet.",
+        "item": {
+          "id": "tools-that-disappear",
+          "title": "Good tools disappear",
+          "excerpt": "The highest compliment for a tool is that nobody remembers using it. On interfaces that get out of the way.",
+          "body": "You do not think about a doorknob when you open a door. That is the standard: a tool succeeded when the person forgot it was there and remembers only the work.\n\nEvery affordance we add is tested against one question — does this move attention toward the content or toward the chrome? Toolbars lost that argument here more than once.\n\nInvisible does not mean minimal for its own sake. It means every visible element earns its place by carrying meaning the content cannot carry alone.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=1600&q=80",
+            "alt": "Minimal workspace with a laptop, plant and empty desk surface"
+          },
+          "date": "2026-04-09",
+          "author": "Tomas Lindgren",
+          "readingTime": "5 min",
+          "tags": [
+            "tooling",
+            "design"
+          ]
+        },
+        "tags": {
+          "design": {
+            "id": "design",
+            "name": "Design",
+            "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+            "accent": "primary"
+          },
+          "engineering": {
+            "id": "engineering",
+            "name": "Engineering",
+            "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+            "accent": "accent"
+          },
+          "process": {
+            "id": "process",
+            "name": "Process",
+            "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+            "accent": "primary"
+          },
+          "writing": {
+            "id": "writing",
+            "name": "Writing",
+            "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+            "accent": "muted"
+          },
+          "tooling": {
+            "id": "tooling",
+            "name": "Tooling",
+            "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+            "accent": "accent"
+          },
+          "culture": {
+            "id": "culture",
+            "name": "Culture",
+            "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+            "accent": "muted"
+          }
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "post-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Keep reading",
+        "primaryCta": {
+          "id": "post-detail-cta-1",
+          "label": "Back to the archive",
+          "href": "/posts",
+          "variant": "primary"
+        }
+      },
+      "settings": {
+        "paddingBottom": "xl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "contact-page",
+  "slug": "contact",
+  "meta": {
+    "title": "Contact the Inkwell Journal editorial desk",
+    "description": "Write to the Inkwell Journal desk about the essays, the OlonJS collections demo, or anything in between. We answer within two working days."
+  },
+  "sections": [
+    {
+      "id": "contact-hero",
+      "type": "page-hero",
+      "data": {
+        "label": "Contact",
+        "title": "Write to the desk",
+        "description": "Questions, corrections, or curiosity about how the collections are wired — all welcome."
+      },
+      "settings": { "paddingTop": "xl" }
+    },
+    {
+      "id": "contact-details",
+      "type": "content-block",
+      "data": {
+        "label": "Reach us",
+        "title": "Where to find us",
+        "paragraphs": [
+          { "id": "contact-p1", "text": "Email is the fastest route: hello@inkwell-journal.example. We read everything and answer within two working days, usually sooner." },
+          { "id": "contact-p2", "text": "The desk sits at Via dei Tipografi 12, 40126 Bologna — visits by appointment. If you are writing about a correction, include the post title and the paragraph you mean." }
+        ],
+        "image": { "url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1600&q=80", "alt": "Vintage typewriter with a blank sheet of paper on a desk" }
+      },
+      "settings": {}
+    },
+    {
+      "id": "contact-editorial",
+      "type": "content-block",
+      "data": {
+        "label": "Pitches",
+        "title": "Want to write for Inkwell?",
+        "paragraphs": [
+          { "id": "contact-p3", "text": "We publish outside voices a few times a year. Pitch us one paragraph: the single sentence your piece exists to deliver, and why you are the person to write it." },
+          { "id": "contact-p4", "text": "Every accepted piece becomes an entry in the posts collection with its own tags — your essay ships wired into the same relation graph you are reading now." }
+        ]
+      },
+      "settings": {}
+    },
+    {
+      "id": "contact-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Or just start reading",
+        "primaryCta": { "id": "contact-cta-1", "label": "Latest posts", "href": "/posts", "variant": "primary" }
+      },
+      "settings": { "paddingBottom": "xl" }
+    }
+  ]
+}

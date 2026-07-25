@@ -1,0 +1,306 @@
+{
+  "version": "1.0.0",
+  "kind": "olonjs-mcp-manifest-index",
+  "generatedAt": "2026-07-25T17:03:23.904Z",
+  "pages": [
+    {
+      "slug": "about",
+      "title": "About Inkwell Journal and this collections demo",
+      "description": "Inkwell Journal is a working OlonJS demo: posts and tags live as separate collections, related through keys on the post side and resolved at render time.",
+      "manifestHref": "/mcp-manifests/about.json",
+      "contractHref": "/schemas/about.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "page-hero",
+        "content-block",
+        "stats-band",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact the Inkwell Journal editorial desk",
+      "description": "Write to the Inkwell Journal desk about the essays, the OlonJS collections demo, or anything in between. We answer within two working days.",
+      "manifestHref": "/mcp-manifests/contact.json",
+      "contractHref": "/schemas/contact.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "page-hero",
+        "content-block",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "home",
+      "title": "Inkwell Journal — Notes on the craft of software",
+      "description": "An editorial journal about design, engineering and process, built on OlonJS collections: every post and every tag is a first-class entity with its own page.",
+      "manifestHref": "/mcp-manifests/home.json",
+      "contractHref": "/schemas/home.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "hero",
+        "posts-list",
+        "tags-list",
+        "stats-band",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "post-detail",
+      "title": "Post — Inkwell Journal essay detail",
+      "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/post-detail.json",
+      "contractHref": "/schemas/post-detail.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "post-detail",
+        "related-tags",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "posts",
+      "title": "All posts — Inkwell Journal essay archive",
+      "description": "The complete archive of Inkwell Journal essays on design, engineering, writing and process, rendered as a timeline from the posts collection.",
+      "manifestHref": "/mcp-manifests/posts.json",
+      "contractHref": "/schemas/posts.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "page-hero",
+        "posts-list",
+        "tags-list",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "posts/designing-with-constraints",
+      "title": "Post — Inkwell Journal essay detail",
+      "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/posts/designing-with-constraints.json",
+      "contractHref": "/schemas/posts/designing-with-constraints.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "post-detail",
+        "related-tags",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "posts/notes-on-code-review",
+      "title": "Post — Inkwell Journal essay detail",
+      "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/posts/notes-on-code-review.json",
+      "contractHref": "/schemas/posts/notes-on-code-review.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "post-detail",
+        "related-tags",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "posts/shipping-on-fridays",
+      "title": "Post — Inkwell Journal essay detail",
+      "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/posts/shipping-on-fridays.json",
+      "contractHref": "/schemas/posts/shipping-on-fridays.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "post-detail",
+        "related-tags",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "posts/the-boring-stack",
+      "title": "Post — Inkwell Journal essay detail",
+      "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/posts/the-boring-stack.json",
+      "contractHref": "/schemas/posts/the-boring-stack.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "post-detail",
+        "related-tags",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "posts/the-second-draft",
+      "title": "Post — Inkwell Journal essay detail",
+      "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/posts/the-second-draft.json",
+      "contractHref": "/schemas/posts/the-second-draft.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "post-detail",
+        "related-tags",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "posts/tokens-not-pixels",
+      "title": "Post — Inkwell Journal essay detail",
+      "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/posts/tokens-not-pixels.json",
+      "contractHref": "/schemas/posts/tokens-not-pixels.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "post-detail",
+        "related-tags",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "posts/tools-that-disappear",
+      "title": "Post — Inkwell Journal essay detail",
+      "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/posts/tools-that-disappear.json",
+      "contractHref": "/schemas/posts/tools-that-disappear.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "post-detail",
+        "related-tags",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "posts/write-the-readme-first",
+      "title": "Post — Inkwell Journal essay detail",
+      "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/posts/write-the-readme-first.json",
+      "contractHref": "/schemas/posts/write-the-readme-first.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "post-detail",
+        "related-tags",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "tag-detail",
+      "title": "Topic — Inkwell Journal posts by tag",
+      "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.",
+      "manifestHref": "/mcp-manifests/tag-detail.json",
+      "contractHref": "/schemas/tag-detail.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "tag-detail",
+        "tag-posts",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "tags",
+      "title": "Topics — browse Inkwell Journal by tag",
+      "description": "Six topics spanning design, engineering, process, writing, tooling and culture. Each tag page computes its own post list from the posts-to-tags relation.",
+      "manifestHref": "/mcp-manifests/tags.json",
+      "contractHref": "/schemas/tags.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "page-hero",
+        "tags-list",
+        "posts-list",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "tags/culture",
+      "title": "Topic — Inkwell Journal posts by tag",
+      "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.",
+      "manifestHref": "/mcp-manifests/tags/culture.json",
+      "contractHref": "/schemas/tags/culture.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "tag-detail",
+        "tag-posts",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "tags/design",
+      "title": "Topic — Inkwell Journal posts by tag",
+      "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.",
+      "manifestHref": "/mcp-manifests/tags/design.json",
+      "contractHref": "/schemas/tags/design.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "tag-detail",
+        "tag-posts",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "tags/engineering",
+      "title": "Topic — Inkwell Journal posts by tag",
+      "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.",
+      "manifestHref": "/mcp-manifests/tags/engineering.json",
+      "contractHref": "/schemas/tags/engineering.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "tag-detail",
+        "tag-posts",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "tags/process",
+      "title": "Topic — Inkwell Journal posts by tag",
+      "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.",
+      "manifestHref": "/mcp-manifests/tags/process.json",
+      "contractHref": "/schemas/tags/process.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "tag-detail",
+        "tag-posts",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "tags/tooling",
+      "title": "Topic — Inkwell Journal posts by tag",
+      "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.",
+      "manifestHref": "/mcp-manifests/tags/tooling.json",
+      "contractHref": "/schemas/tags/tooling.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "tag-detail",
+        "tag-posts",
+        "cta-banner"
+      ]
+    },
+    {
+      "slug": "tags/writing",
+      "title": "Topic — Inkwell Journal posts by tag",
+      "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.",
+      "manifestHref": "/mcp-manifests/tags/writing.json",
+      "contractHref": "/schemas/tags/writing.schema.json",
+      "sectionTypes": [
+        "header",
+        "footer",
+        "tag-detail",
+        "tag-posts",
+        "cta-banner"
+      ]
+    }
+  ]
+}

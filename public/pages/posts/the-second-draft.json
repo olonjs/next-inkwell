@@ -1,0 +1,120 @@
+{
+  "id": "post-detail-page",
+  "slug": "posts/the-second-draft",
+  "collection": {
+    "source": "posts",
+    "paramKey": "slug"
+  },
+  "meta": {
+    "title": "Post — Inkwell Journal essay detail",
+    "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "post-detail-body",
+      "type": "post-detail",
+      "data": {
+        "backLabel": "All posts",
+        "item": {
+          "id": "the-second-draft",
+          "title": "The second draft is the real one",
+          "excerpt": "Everything on this journal is published twice: once to find out what we think, once to say it properly.",
+          "body": "First drafts are for discovering the argument. They meander, they hedge, they bury the point in paragraph four. That is fine — their job is excavation, not presentation.\n\nThe second draft starts from one question: what is the single sentence this piece exists to deliver? Everything that does not serve that sentence gets cut, no matter how much we liked writing it.\n\nOur average post loses forty percent of its words between drafts. Readers never miss them.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1600&q=80",
+            "alt": "Handwritten manuscript pages with edits and crossed-out lines"
+          },
+          "date": "2026-04-22",
+          "author": "June Park",
+          "readingTime": "4 min",
+          "tags": [
+            "writing"
+          ]
+        }
+      },
+      "settings": {
+        "paddingTop": "xl"
+      }
+    },
+    {
+      "id": "post-detail-related-tags",
+      "type": "related-tags",
+      "data": {
+        "label": "Relations demo",
+        "title": "Filed under",
+        "emptyLabel": "This post has no topics yet.",
+        "item": {
+          "id": "the-second-draft",
+          "title": "The second draft is the real one",
+          "excerpt": "Everything on this journal is published twice: once to find out what we think, once to say it properly.",
+          "body": "First drafts are for discovering the argument. They meander, they hedge, they bury the point in paragraph four. That is fine — their job is excavation, not presentation.\n\nThe second draft starts from one question: what is the single sentence this piece exists to deliver? Everything that does not serve that sentence gets cut, no matter how much we liked writing it.\n\nOur average post loses forty percent of its words between drafts. Readers never miss them.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1600&q=80",
+            "alt": "Handwritten manuscript pages with edits and crossed-out lines"
+          },
+          "date": "2026-04-22",
+          "author": "June Park",
+          "readingTime": "4 min",
+          "tags": [
+            "writing"
+          ]
+        },
+        "tags": {
+          "design": {
+            "id": "design",
+            "name": "Design",
+            "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+            "accent": "primary"
+          },
+          "engineering": {
+            "id": "engineering",
+            "name": "Engineering",
+            "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+            "accent": "accent"
+          },
+          "process": {
+            "id": "process",
+            "name": "Process",
+            "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+            "accent": "primary"
+          },
+          "writing": {
+            "id": "writing",
+            "name": "Writing",
+            "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+            "accent": "muted"
+          },
+          "tooling": {
+            "id": "tooling",
+            "name": "Tooling",
+            "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+            "accent": "accent"
+          },
+          "culture": {
+            "id": "culture",
+            "name": "Culture",
+            "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+            "accent": "muted"
+          }
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "post-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Keep reading",
+        "primaryCta": {
+          "id": "post-detail-cta-1",
+          "label": "Back to the archive",
+          "href": "/posts",
+          "variant": "primary"
+        }
+      },
+      "settings": {
+        "paddingBottom": "xl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "kind": "olonjs-page-mcp-manifest",
+  "generatedAt": "2026-07-25T17:03:23.898Z",
+  "slug": "tags/design",
+  "title": "Topic — Inkwell Journal posts by tag",
+  "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.",
+  "contractHref": "/schemas/tags/design.schema.json",
+  "transport": {
+    "kind": "window-message",
+    "requestType": "olonjs:webmcp:tool-call",
+    "resultType": "olonjs:webmcp:tool-result",
+    "target": "window"
+  },
+  "capabilities": {
+    "resources": [
+      {
+        "uri": "olon://pages/tags/design",
+        "name": "Topic — Inkwell Journal posts by tag Data",
+        "mimeType": "application/json",
+        "description": "Structured content for the tags/design page."
+      },
+      {
+        "uri": "olon://pages",
+        "name": "Site Map",
+        "mimeType": "application/json",
+        "description": "Structured content for the map of this site"
+      }
+    ]
+  },
+  "sectionTypes": [
+    "header",
+    "footer",
+    "tag-detail",
+    "tag-posts",
+    "cta-banner"
+  ],
+  "sectionInstances": [
+    {
+      "id": "global-header",
+      "type": "header",
+      "scope": "global",
+      "label": "header"
+    },
+    {
+      "id": "global-footer",
+      "type": "footer",
+      "scope": "global",
+      "label": "footer"
+    },
+    {
+      "id": "tag-detail-head",
+      "type": "tag-detail",
+      "scope": "local",
+      "label": "tag-detail"
+    },
+    {
+      "id": "tag-detail-posts",
+      "type": "tag-posts",
+      "scope": "local",
+      "label": "Posts on this topic"
+    },
+    {
+      "id": "tag-detail-cta",
+      "type": "cta-banner",
+      "scope": "local",
+      "label": "Explore another thread"
+    }
+  ],
+  "tools": [
+    {
+      "name": "update-section",
+      "description": "Update a section field in the Studio draft. Does not persist — call save when all updates are complete. Use sectionType to select the matching schema from sectionSchemas."
+    },
+    {
+      "name": "save",
+      "description": "Persist all pending draft changes using the active save mode (local file, hot save, or save2repo). Call once after all update-section calls are complete."
+    }
+  ]
+}

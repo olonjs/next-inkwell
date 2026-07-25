@@ -1,0 +1,122 @@
+{
+  "id": "post-detail-page",
+  "slug": "posts/the-boring-stack",
+  "collection": {
+    "source": "posts",
+    "paramKey": "slug"
+  },
+  "meta": {
+    "title": "Post — Inkwell Journal essay detail",
+    "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "post-detail-body",
+      "type": "post-detail",
+      "data": {
+        "backLabel": "All posts",
+        "item": {
+          "id": "the-boring-stack",
+          "title": "The boring stack is a feature",
+          "excerpt": "We rebuilt our pipeline on tools nobody tweets about. Deploys got faster and the on-call channel went quiet.",
+          "body": "There is a special kind of silence that follows choosing boring technology. The pager stops. The changelog reads like a grocery list. Nobody has to relearn the build system on a Tuesday.\n\nBoring does not mean old. It means the failure modes are documented, the upgrade path is known, and the second engineer to touch the code can predict what the first one did.\n\nWe budget our novelty. One genuinely new tool per quarter, everything else deliberately dull. That budget is the most productive constraint we have.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
+            "alt": "Close-up of a circuit board with soldered components"
+          },
+          "date": "2026-06-19",
+          "author": "Tomas Lindgren",
+          "readingTime": "5 min",
+          "tags": [
+            "engineering",
+            "tooling"
+          ]
+        }
+      },
+      "settings": {
+        "paddingTop": "xl"
+      }
+    },
+    {
+      "id": "post-detail-related-tags",
+      "type": "related-tags",
+      "data": {
+        "label": "Relations demo",
+        "title": "Filed under",
+        "emptyLabel": "This post has no topics yet.",
+        "item": {
+          "id": "the-boring-stack",
+          "title": "The boring stack is a feature",
+          "excerpt": "We rebuilt our pipeline on tools nobody tweets about. Deploys got faster and the on-call channel went quiet.",
+          "body": "There is a special kind of silence that follows choosing boring technology. The pager stops. The changelog reads like a grocery list. Nobody has to relearn the build system on a Tuesday.\n\nBoring does not mean old. It means the failure modes are documented, the upgrade path is known, and the second engineer to touch the code can predict what the first one did.\n\nWe budget our novelty. One genuinely new tool per quarter, everything else deliberately dull. That budget is the most productive constraint we have.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
+            "alt": "Close-up of a circuit board with soldered components"
+          },
+          "date": "2026-06-19",
+          "author": "Tomas Lindgren",
+          "readingTime": "5 min",
+          "tags": [
+            "engineering",
+            "tooling"
+          ]
+        },
+        "tags": {
+          "design": {
+            "id": "design",
+            "name": "Design",
+            "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+            "accent": "primary"
+          },
+          "engineering": {
+            "id": "engineering",
+            "name": "Engineering",
+            "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+            "accent": "accent"
+          },
+          "process": {
+            "id": "process",
+            "name": "Process",
+            "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+            "accent": "primary"
+          },
+          "writing": {
+            "id": "writing",
+            "name": "Writing",
+            "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+            "accent": "muted"
+          },
+          "tooling": {
+            "id": "tooling",
+            "name": "Tooling",
+            "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+            "accent": "accent"
+          },
+          "culture": {
+            "id": "culture",
+            "name": "Culture",
+            "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+            "accent": "muted"
+          }
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "post-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Keep reading",
+        "primaryCta": {
+          "id": "post-detail-cta-1",
+          "label": "Back to the archive",
+          "href": "/posts",
+          "variant": "primary"
+        }
+      },
+      "settings": {
+        "paddingBottom": "xl"
+      }
+    }
+  ]
+}

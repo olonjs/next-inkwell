@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "kind": "olonjs-page-mcp-manifest",
+  "generatedAt": "2026-07-25T17:03:23.882Z",
+  "slug": "posts",
+  "title": "All posts — Inkwell Journal essay archive",
+  "description": "The complete archive of Inkwell Journal essays on design, engineering, writing and process, rendered as a timeline from the posts collection.",
+  "contractHref": "/schemas/posts.schema.json",
+  "transport": {
+    "kind": "window-message",
+    "requestType": "olonjs:webmcp:tool-call",
+    "resultType": "olonjs:webmcp:tool-result",
+    "target": "window"
+  },
+  "capabilities": {
+    "resources": [
+      {
+        "uri": "olon://pages/posts",
+        "name": "All posts — Inkwell Journal essay archive Data",
+        "mimeType": "application/json",
+        "description": "Structured content for the posts page."
+      },
+      {
+        "uri": "olon://pages",
+        "name": "Site Map",
+        "mimeType": "application/json",
+        "description": "Structured content for the map of this site"
+      }
+    ]
+  },
+  "sectionTypes": [
+    "header",
+    "footer",
+    "page-hero",
+    "posts-list",
+    "tags-list",
+    "cta-banner"
+  ],
+  "sectionInstances": [
+    {
+      "id": "global-header",
+      "type": "header",
+      "scope": "global",
+      "label": "header"
+    },
+    {
+      "id": "global-footer",
+      "type": "footer",
+      "scope": "global",
+      "label": "footer"
+    },
+    {
+      "id": "posts-hero",
+      "type": "page-hero",
+      "scope": "local",
+      "label": "Every post, in order"
+    },
+    {
+      "id": "posts-archive",
+      "type": "posts-list",
+      "scope": "local",
+      "label": "The archive"
+    },
+    {
+      "id": "posts-topics",
+      "type": "tags-list",
+      "scope": "local",
+      "label": "Prefer to browse by topic?"
+    },
+    {
+      "id": "posts-cta",
+      "type": "cta-banner",
+      "scope": "local",
+      "label": "Say hello"
+    }
+  ],
+  "tools": [
+    {
+      "name": "update-section",
+      "description": "Update a section field in the Studio draft. Does not persist — call save when all updates are complete. Use sectionType to select the matching schema from sectionSchemas."
+    },
+    {
+      "name": "save",
+      "description": "Persist all pending draft changes using the active save mode (local file, hot save, or save2repo). Call once after all update-section calls are complete."
+    }
+  ]
+}

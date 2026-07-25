@@ -1,0 +1,50 @@
+{
+  "id": "tags-page",
+  "slug": "tags",
+  "meta": {
+    "title": "Topics — browse Inkwell Journal by tag",
+    "description": "Six topics spanning design, engineering, process, writing, tooling and culture. Each tag page computes its own post list from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "tags-hero",
+      "type": "page-hero",
+      "data": {
+        "label": "Topics",
+        "title": "Browse by topic",
+        "description": "Tags are their own collection. No tag stores a post list — each tag page filters the posts collection live, so the relation can never drift out of sync."
+      },
+      "settings": { "paddingTop": "xl" }
+    },
+    {
+      "id": "tags-all",
+      "type": "tags-list",
+      "data": {
+        "title": "All topics",
+        "items": { "$ref": "../collections/tags/tags.json" }
+      },
+      "settings": {}
+    },
+    {
+      "id": "tags-recent-posts",
+      "type": "posts-list",
+      "data": {
+        "label": "Or start reading",
+        "title": "Fresh off the press",
+        "variant": "bento",
+        "limit": 3,
+        "items": { "$ref": "../collections/posts/posts.json" }
+      },
+      "settings": {}
+    },
+    {
+      "id": "tags-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Lost? Start at the top",
+        "primaryCta": { "id": "tags-cta-1", "label": "Back to home", "href": "/", "variant": "primary" }
+      },
+      "settings": { "paddingBottom": "xl" }
+    }
+  ]
+}

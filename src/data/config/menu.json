@@ -1,0 +1,15 @@
+{
+  "main": [
+    { "id": "menu-home", "label": "Home", "href": "/" },
+    { "id": "menu-posts", "label": "Posts", "href": "/posts" },
+    { "id": "menu-tags", "label": "Topics", "href": "/tags" },
+    { "id": "menu-about", "label": "About", "href": "/about" },
+    { "id": "menu-contact", "label": "Contact", "href": "/contact", "isCta": true }
+  ],
+  "footer": [
+    { "id": "footer-posts", "label": "Posts", "href": "/posts" },
+    { "id": "footer-tags", "label": "Topics", "href": "/tags" },
+    { "id": "footer-about", "label": "About", "href": "/about" },
+    { "id": "footer-contact", "label": "Contact", "href": "/contact" }
+  ]
+}

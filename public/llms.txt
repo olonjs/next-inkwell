@@ -1,0 +1,93 @@
+# Inkwell Journal
+
+An editorial journal about design, engineering and process, built on OlonJS collections: every post and every tag is a first-class entity with its own page.
+
+> **AI Agents:** This site is built with OlonJS. It exposes a native Model Context Protocol (MCP) manifest for direct structural interaction. 
+> To read the site map or access structured content, use the URI `olon://pages` or `olon://pages/[slug]`.
+> Endpoint: `/mcp-manifest.json`
+
+## Pages
+
+- **[About Inkwell Journal and this collections demo](/about)** (`about`)
+  Inkwell Journal is a working OlonJS demo: posts and tags live as separate collections, related through keys on the post side and resolved at render time.
+  *Contract:* `/schemas/about.schema.json` | *Manifest:* `/mcp-manifests/about.json`
+
+- **[Contact the Inkwell Journal editorial desk](/contact)** (`contact`)
+  Write to the Inkwell Journal desk about the essays, the OlonJS collections demo, or anything in between. We answer within two working days.
+  *Contract:* `/schemas/contact.schema.json` | *Manifest:* `/mcp-manifests/contact.json`
+
+- **[Inkwell Journal — Notes on the craft of software](/)** (`home`)
+  An editorial journal about design, engineering and process, built on OlonJS collections: every post and every tag is a first-class entity with its own page.
+  *Contract:* `/schemas/home.schema.json` | *Manifest:* `/mcp-manifests/home.json`
+
+- **[Post — Inkwell Journal essay detail](/post-detail)** (`post-detail`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/post-detail.schema.json` | *Manifest:* `/mcp-manifests/post-detail.json`
+
+- **[All posts — Inkwell Journal essay archive](/posts)** (`posts`)
+  The complete archive of Inkwell Journal essays on design, engineering, writing and process, rendered as a timeline from the posts collection.
+  *Contract:* `/schemas/posts.schema.json` | *Manifest:* `/mcp-manifests/posts.json`
+
+- **[Post — Inkwell Journal essay detail](/posts/designing-with-constraints)** (`posts/designing-with-constraints`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/posts/designing-with-constraints.schema.json` | *Manifest:* `/mcp-manifests/posts/designing-with-constraints.json`
+
+- **[Post — Inkwell Journal essay detail](/posts/notes-on-code-review)** (`posts/notes-on-code-review`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/posts/notes-on-code-review.schema.json` | *Manifest:* `/mcp-manifests/posts/notes-on-code-review.json`
+
+- **[Post — Inkwell Journal essay detail](/posts/shipping-on-fridays)** (`posts/shipping-on-fridays`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/posts/shipping-on-fridays.schema.json` | *Manifest:* `/mcp-manifests/posts/shipping-on-fridays.json`
+
+- **[Post — Inkwell Journal essay detail](/posts/the-boring-stack)** (`posts/the-boring-stack`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/posts/the-boring-stack.schema.json` | *Manifest:* `/mcp-manifests/posts/the-boring-stack.json`
+
+- **[Post — Inkwell Journal essay detail](/posts/the-second-draft)** (`posts/the-second-draft`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/posts/the-second-draft.schema.json` | *Manifest:* `/mcp-manifests/posts/the-second-draft.json`
+
+- **[Post — Inkwell Journal essay detail](/posts/tokens-not-pixels)** (`posts/tokens-not-pixels`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/posts/tokens-not-pixels.schema.json` | *Manifest:* `/mcp-manifests/posts/tokens-not-pixels.json`
+
+- **[Post — Inkwell Journal essay detail](/posts/tools-that-disappear)** (`posts/tools-that-disappear`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/posts/tools-that-disappear.schema.json` | *Manifest:* `/mcp-manifests/posts/tools-that-disappear.json`
+
+- **[Post — Inkwell Journal essay detail](/posts/write-the-readme-first)** (`posts/write-the-readme-first`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/posts/write-the-readme-first.schema.json` | *Manifest:* `/mcp-manifests/posts/write-the-readme-first.json`
+
+- **[Topic — Inkwell Journal posts by tag](/tag-detail)** (`tag-detail`)
+  A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
+  *Contract:* `/schemas/tag-detail.schema.json` | *Manifest:* `/mcp-manifests/tag-detail.json`
+
+- **[Topics — browse Inkwell Journal by tag](/tags)** (`tags`)
+  Six topics spanning design, engineering, process, writing, tooling and culture. Each tag page computes its own post list from the posts-to-tags relation.
+  *Contract:* `/schemas/tags.schema.json` | *Manifest:* `/mcp-manifests/tags.json`
+
+- **[Topic — Inkwell Journal posts by tag](/tags/culture)** (`tags/culture`)
+  A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
+  *Contract:* `/schemas/tags/culture.schema.json` | *Manifest:* `/mcp-manifests/tags/culture.json`
+
+- **[Topic — Inkwell Journal posts by tag](/tags/design)** (`tags/design`)
+  A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
+  *Contract:* `/schemas/tags/design.schema.json` | *Manifest:* `/mcp-manifests/tags/design.json`
+
+- **[Topic — Inkwell Journal posts by tag](/tags/engineering)** (`tags/engineering`)
+  A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
+  *Contract:* `/schemas/tags/engineering.schema.json` | *Manifest:* `/mcp-manifests/tags/engineering.json`
+
+- **[Topic — Inkwell Journal posts by tag](/tags/process)** (`tags/process`)
+  A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
+  *Contract:* `/schemas/tags/process.schema.json` | *Manifest:* `/mcp-manifests/tags/process.json`
+
+- **[Topic — Inkwell Journal posts by tag](/tags/tooling)** (`tags/tooling`)
+  A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
+  *Contract:* `/schemas/tags/tooling.schema.json` | *Manifest:* `/mcp-manifests/tags/tooling.json`
+
+- **[Topic — Inkwell Journal posts by tag](/tags/writing)** (`tags/writing`)
+  A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
+  *Contract:* `/schemas/tags/writing.schema.json` | *Manifest:* `/mcp-manifests/tags/writing.json`

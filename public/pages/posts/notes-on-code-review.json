@@ -1,0 +1,122 @@
+{
+  "id": "post-detail-page",
+  "slug": "posts/notes-on-code-review",
+  "collection": {
+    "source": "posts",
+    "paramKey": "slug"
+  },
+  "meta": {
+    "title": "Post — Inkwell Journal essay detail",
+    "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "post-detail-body",
+      "type": "post-detail",
+      "data": {
+        "backLabel": "All posts",
+        "item": {
+          "id": "notes-on-code-review",
+          "title": "Code review is a writing exercise",
+          "excerpt": "The best reviewers on our team are not the fastest readers of code. They are the most careful writers of comments.",
+          "body": "A review comment is a tiny piece of technical writing with a hostile audience: a tired author who wants to merge. Precision and kindness are not in tension there — they are the same skill.\n\nWe rewrote our review guidelines around sentences, not checklists. Say what you observed, say why it matters, say what you would accept. Three sentences, no verdicts without reasons.\n\nReview latency dropped by half. Not because people read faster, but because nobody has to decode what a one-word comment meant.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&q=80",
+            "alt": "Two colleagues discussing work in front of a shared screen"
+          },
+          "date": "2026-05-04",
+          "author": "Ada Osei",
+          "readingTime": "6 min",
+          "tags": [
+            "engineering",
+            "culture"
+          ]
+        }
+      },
+      "settings": {
+        "paddingTop": "xl"
+      }
+    },
+    {
+      "id": "post-detail-related-tags",
+      "type": "related-tags",
+      "data": {
+        "label": "Relations demo",
+        "title": "Filed under",
+        "emptyLabel": "This post has no topics yet.",
+        "item": {
+          "id": "notes-on-code-review",
+          "title": "Code review is a writing exercise",
+          "excerpt": "The best reviewers on our team are not the fastest readers of code. They are the most careful writers of comments.",
+          "body": "A review comment is a tiny piece of technical writing with a hostile audience: a tired author who wants to merge. Precision and kindness are not in tension there — they are the same skill.\n\nWe rewrote our review guidelines around sentences, not checklists. Say what you observed, say why it matters, say what you would accept. Three sentences, no verdicts without reasons.\n\nReview latency dropped by half. Not because people read faster, but because nobody has to decode what a one-word comment meant.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&q=80",
+            "alt": "Two colleagues discussing work in front of a shared screen"
+          },
+          "date": "2026-05-04",
+          "author": "Ada Osei",
+          "readingTime": "6 min",
+          "tags": [
+            "engineering",
+            "culture"
+          ]
+        },
+        "tags": {
+          "design": {
+            "id": "design",
+            "name": "Design",
+            "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+            "accent": "primary"
+          },
+          "engineering": {
+            "id": "engineering",
+            "name": "Engineering",
+            "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+            "accent": "accent"
+          },
+          "process": {
+            "id": "process",
+            "name": "Process",
+            "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+            "accent": "primary"
+          },
+          "writing": {
+            "id": "writing",
+            "name": "Writing",
+            "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+            "accent": "muted"
+          },
+          "tooling": {
+            "id": "tooling",
+            "name": "Tooling",
+            "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+            "accent": "accent"
+          },
+          "culture": {
+            "id": "culture",
+            "name": "Culture",
+            "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+            "accent": "muted"
+          }
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "post-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Keep reading",
+        "primaryCta": {
+          "id": "post-detail-cta-1",
+          "label": "Back to the archive",
+          "href": "/posts",
+          "variant": "primary"
+        }
+      },
+      "settings": {
+        "paddingBottom": "xl"
+      }
+    }
+  ]
+}

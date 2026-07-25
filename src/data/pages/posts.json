@@ -1,0 +1,50 @@
+{
+  "id": "posts-page",
+  "slug": "posts",
+  "meta": {
+    "title": "All posts — Inkwell Journal essay archive",
+    "description": "The complete archive of Inkwell Journal essays on design, engineering, writing and process, rendered as a timeline from the posts collection."
+  },
+  "sections": [
+    {
+      "id": "posts-hero",
+      "type": "page-hero",
+      "data": {
+        "label": "Archive",
+        "title": "Every post, in order",
+        "description": "The full posts collection rendered as a timeline. Each entry carries its tag keys — follow one to jump into the inverse relation."
+      },
+      "settings": { "paddingTop": "xl" }
+    },
+    {
+      "id": "posts-archive",
+      "type": "posts-list",
+      "data": {
+        "title": "The archive",
+        "variant": "timeline",
+        "items": { "$ref": "../collections/posts/posts.json" }
+      },
+      "settings": {}
+    },
+    {
+      "id": "posts-topics",
+      "type": "tags-list",
+      "data": {
+        "label": "Another way in",
+        "title": "Prefer to browse by topic?",
+        "items": { "$ref": "../collections/tags/tags.json" }
+      },
+      "settings": {}
+    },
+    {
+      "id": "posts-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Say hello",
+        "description": "Questions about the writing, or about how this demo wires its collections together? We read every message.",
+        "primaryCta": { "id": "posts-cta-1", "label": "Contact us", "href": "/contact", "variant": "primary" }
+      },
+      "settings": { "paddingBottom": "xl" }
+    }
+  ]
+}

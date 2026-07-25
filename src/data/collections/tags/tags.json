@@ -1,0 +1,38 @@
+{
+  "design": {
+    "id": "design",
+    "name": "Design",
+    "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+    "accent": "primary"
+  },
+  "engineering": {
+    "id": "engineering",
+    "name": "Engineering",
+    "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+    "accent": "accent"
+  },
+  "process": {
+    "id": "process",
+    "name": "Process",
+    "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+    "accent": "primary"
+  },
+  "writing": {
+    "id": "writing",
+    "name": "Writing",
+    "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+    "accent": "muted"
+  },
+  "tooling": {
+    "id": "tooling",
+    "name": "Tooling",
+    "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+    "accent": "accent"
+  },
+  "culture": {
+    "id": "culture",
+    "name": "Culture",
+    "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+    "accent": "muted"
+  }
+}

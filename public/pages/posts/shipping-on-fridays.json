@@ -1,0 +1,122 @@
+{
+  "id": "post-detail-page",
+  "slug": "posts/shipping-on-fridays",
+  "collection": {
+    "source": "posts",
+    "paramKey": "slug"
+  },
+  "meta": {
+    "title": "Post — Inkwell Journal essay detail",
+    "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "post-detail-body",
+      "type": "post-detail",
+      "data": {
+        "backLabel": "All posts",
+        "item": {
+          "id": "shipping-on-fridays",
+          "title": "Yes, we ship on Fridays",
+          "excerpt": "The no-Friday-deploy rule treats the symptom. We fixed the disease instead, and the weekend stayed quiet anyway.",
+          "body": "Teams that fear Friday deploys do not have a calendar problem, they have a confidence problem. The fix is not a freeze window; it is making deploys so small and so reversible that the day of the week stops mattering.\n\nWe ship changes measured in tens of lines, behind flags, with a rollback that takes one command and no meeting. When a deploy is that cheap, Friday afternoon is just another afternoon.\n\nThe cultural shift matters more than the tooling: nobody gets praised here for a heroic weekend fix. We praise the boring deploy that nobody noticed.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1600&q=80",
+            "alt": "Laptop and coffee cup on a tidy desk in warm morning light"
+          },
+          "date": "2026-05-18",
+          "author": "Marco Bellini",
+          "readingTime": "5 min",
+          "tags": [
+            "culture",
+            "process"
+          ]
+        }
+      },
+      "settings": {
+        "paddingTop": "xl"
+      }
+    },
+    {
+      "id": "post-detail-related-tags",
+      "type": "related-tags",
+      "data": {
+        "label": "Relations demo",
+        "title": "Filed under",
+        "emptyLabel": "This post has no topics yet.",
+        "item": {
+          "id": "shipping-on-fridays",
+          "title": "Yes, we ship on Fridays",
+          "excerpt": "The no-Friday-deploy rule treats the symptom. We fixed the disease instead, and the weekend stayed quiet anyway.",
+          "body": "Teams that fear Friday deploys do not have a calendar problem, they have a confidence problem. The fix is not a freeze window; it is making deploys so small and so reversible that the day of the week stops mattering.\n\nWe ship changes measured in tens of lines, behind flags, with a rollback that takes one command and no meeting. When a deploy is that cheap, Friday afternoon is just another afternoon.\n\nThe cultural shift matters more than the tooling: nobody gets praised here for a heroic weekend fix. We praise the boring deploy that nobody noticed.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1600&q=80",
+            "alt": "Laptop and coffee cup on a tidy desk in warm morning light"
+          },
+          "date": "2026-05-18",
+          "author": "Marco Bellini",
+          "readingTime": "5 min",
+          "tags": [
+            "culture",
+            "process"
+          ]
+        },
+        "tags": {
+          "design": {
+            "id": "design",
+            "name": "Design",
+            "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+            "accent": "primary"
+          },
+          "engineering": {
+            "id": "engineering",
+            "name": "Engineering",
+            "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+            "accent": "accent"
+          },
+          "process": {
+            "id": "process",
+            "name": "Process",
+            "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+            "accent": "primary"
+          },
+          "writing": {
+            "id": "writing",
+            "name": "Writing",
+            "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+            "accent": "muted"
+          },
+          "tooling": {
+            "id": "tooling",
+            "name": "Tooling",
+            "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+            "accent": "accent"
+          },
+          "culture": {
+            "id": "culture",
+            "name": "Culture",
+            "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+            "accent": "muted"
+          }
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "post-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Keep reading",
+        "primaryCta": {
+          "id": "post-detail-cta-1",
+          "label": "Back to the archive",
+          "href": "/posts",
+          "variant": "primary"
+        }
+      },
+      "settings": {
+        "paddingBottom": "xl"
+      }
+    }
+  ]
+}

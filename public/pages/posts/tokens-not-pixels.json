@@ -1,0 +1,124 @@
+{
+  "id": "post-detail-page",
+  "slug": "posts/tokens-not-pixels",
+  "collection": {
+    "source": "posts",
+    "paramKey": "slug"
+  },
+  "meta": {
+    "title": "Post — Inkwell Journal essay detail",
+    "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "post-detail-body",
+      "type": "post-detail",
+      "data": {
+        "backLabel": "All posts",
+        "item": {
+          "id": "tokens-not-pixels",
+          "title": "Tokens, not pixels",
+          "excerpt": "The day we deleted every hardcoded hex value was the day dark mode became a data change instead of a rewrite.",
+          "body": "A design token is a promise: this value has a name, the name has a meaning, and the meaning survives a redesign. A hex code in a component is the opposite — a decision nobody can find later.\n\nOur rule is mechanical. Components consume semantic variables; variables resolve from a theme document; the theme document is data. Light mode, dark mode, a client rebrand: all of them become edits to one JSON file.\n\nIt is the least glamorous migration we ever ran, and the one with the highest return. Every surface in this journal, including the one you are reading, is painted through that chain.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1600&q=80",
+            "alt": "Monitor showing colorful code in a dark editor theme"
+          },
+          "date": "2026-05-30",
+          "author": "June Park",
+          "readingTime": "7 min",
+          "tags": [
+            "design",
+            "engineering",
+            "tooling"
+          ]
+        }
+      },
+      "settings": {
+        "paddingTop": "xl"
+      }
+    },
+    {
+      "id": "post-detail-related-tags",
+      "type": "related-tags",
+      "data": {
+        "label": "Relations demo",
+        "title": "Filed under",
+        "emptyLabel": "This post has no topics yet.",
+        "item": {
+          "id": "tokens-not-pixels",
+          "title": "Tokens, not pixels",
+          "excerpt": "The day we deleted every hardcoded hex value was the day dark mode became a data change instead of a rewrite.",
+          "body": "A design token is a promise: this value has a name, the name has a meaning, and the meaning survives a redesign. A hex code in a component is the opposite — a decision nobody can find later.\n\nOur rule is mechanical. Components consume semantic variables; variables resolve from a theme document; the theme document is data. Light mode, dark mode, a client rebrand: all of them become edits to one JSON file.\n\nIt is the least glamorous migration we ever ran, and the one with the highest return. Every surface in this journal, including the one you are reading, is painted through that chain.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1600&q=80",
+            "alt": "Monitor showing colorful code in a dark editor theme"
+          },
+          "date": "2026-05-30",
+          "author": "June Park",
+          "readingTime": "7 min",
+          "tags": [
+            "design",
+            "engineering",
+            "tooling"
+          ]
+        },
+        "tags": {
+          "design": {
+            "id": "design",
+            "name": "Design",
+            "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+            "accent": "primary"
+          },
+          "engineering": {
+            "id": "engineering",
+            "name": "Engineering",
+            "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+            "accent": "accent"
+          },
+          "process": {
+            "id": "process",
+            "name": "Process",
+            "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+            "accent": "primary"
+          },
+          "writing": {
+            "id": "writing",
+            "name": "Writing",
+            "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+            "accent": "muted"
+          },
+          "tooling": {
+            "id": "tooling",
+            "name": "Tooling",
+            "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+            "accent": "accent"
+          },
+          "culture": {
+            "id": "culture",
+            "name": "Culture",
+            "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+            "accent": "muted"
+          }
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "post-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Keep reading",
+        "primaryCta": {
+          "id": "post-detail-cta-1",
+          "label": "Back to the archive",
+          "href": "/posts",
+          "variant": "primary"
+        }
+      },
+      "settings": {
+        "paddingBottom": "xl"
+      }
+    }
+  ]
+}

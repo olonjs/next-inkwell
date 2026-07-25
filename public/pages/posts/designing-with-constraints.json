@@ -1,0 +1,122 @@
+{
+  "id": "post-detail-page",
+  "slug": "posts/designing-with-constraints",
+  "collection": {
+    "source": "posts",
+    "paramKey": "slug"
+  },
+  "meta": {
+    "title": "Post — Inkwell Journal essay detail",
+    "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "post-detail-body",
+      "type": "post-detail",
+      "data": {
+        "backLabel": "All posts",
+        "item": {
+          "id": "designing-with-constraints",
+          "title": "Designing with constraints, on purpose",
+          "excerpt": "Every strong interface we have shipped started with a constraint we refused to negotiate away. Here is how we pick them.",
+          "body": "Constraints are not the enemy of good design. They are the only reliable way to make a hundred small decisions coherent with each other. A palette of four colors forces hierarchy; a single display font forces rhythm.\n\nOn Inkwell we hold three constraints fixed: one measure for body text, one accent per surface, and no decoration that does not encode meaning. Everything else is allowed to move.\n\nThe result is not austerity. It is that rare feeling of a page where nothing competes with the words.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1600&q=80",
+            "alt": "Fountain pen resting on a notebook with handwritten notes"
+          },
+          "date": "2026-06-28",
+          "author": "June Park",
+          "readingTime": "6 min",
+          "tags": [
+            "design",
+            "process"
+          ]
+        }
+      },
+      "settings": {
+        "paddingTop": "xl"
+      }
+    },
+    {
+      "id": "post-detail-related-tags",
+      "type": "related-tags",
+      "data": {
+        "label": "Relations demo",
+        "title": "Filed under",
+        "emptyLabel": "This post has no topics yet.",
+        "item": {
+          "id": "designing-with-constraints",
+          "title": "Designing with constraints, on purpose",
+          "excerpt": "Every strong interface we have shipped started with a constraint we refused to negotiate away. Here is how we pick them.",
+          "body": "Constraints are not the enemy of good design. They are the only reliable way to make a hundred small decisions coherent with each other. A palette of four colors forces hierarchy; a single display font forces rhythm.\n\nOn Inkwell we hold three constraints fixed: one measure for body text, one accent per surface, and no decoration that does not encode meaning. Everything else is allowed to move.\n\nThe result is not austerity. It is that rare feeling of a page where nothing competes with the words.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1600&q=80",
+            "alt": "Fountain pen resting on a notebook with handwritten notes"
+          },
+          "date": "2026-06-28",
+          "author": "June Park",
+          "readingTime": "6 min",
+          "tags": [
+            "design",
+            "process"
+          ]
+        },
+        "tags": {
+          "design": {
+            "id": "design",
+            "name": "Design",
+            "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+            "accent": "primary"
+          },
+          "engineering": {
+            "id": "engineering",
+            "name": "Engineering",
+            "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+            "accent": "accent"
+          },
+          "process": {
+            "id": "process",
+            "name": "Process",
+            "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+            "accent": "primary"
+          },
+          "writing": {
+            "id": "writing",
+            "name": "Writing",
+            "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+            "accent": "muted"
+          },
+          "tooling": {
+            "id": "tooling",
+            "name": "Tooling",
+            "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+            "accent": "accent"
+          },
+          "culture": {
+            "id": "culture",
+            "name": "Culture",
+            "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+            "accent": "muted"
+          }
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "post-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Keep reading",
+        "primaryCta": {
+          "id": "post-detail-cta-1",
+          "label": "Back to the archive",
+          "href": "/posts",
+          "variant": "primary"
+        }
+      },
+      "settings": {
+        "paddingBottom": "xl"
+      }
+    }
+  ]
+}

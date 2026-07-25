@@ -1,0 +1,40 @@
+{
+  "id": "tag-detail-page",
+  "slug": "tags/[slug]",
+  "collection": { "source": "tags", "paramKey": "slug" },
+  "meta": {
+    "title": "Topic — Inkwell Journal posts by tag",
+    "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key."
+  },
+  "sections": [
+    {
+      "id": "tag-detail-head",
+      "type": "tag-detail",
+      "data": {
+        "backLabel": "All topics",
+        "item": { "$ref": "collection:current" }
+      },
+      "settings": { "paddingTop": "xl" }
+    },
+    {
+      "id": "tag-detail-posts",
+      "type": "tag-posts",
+      "data": {
+        "title": "Posts on this topic",
+        "emptyLabel": "No posts carry this tag yet.",
+        "item": { "$ref": "collection:current" },
+        "posts": { "$ref": "../collections/posts/posts.json" }
+      },
+      "settings": {}
+    },
+    {
+      "id": "tag-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Explore another thread",
+        "primaryCta": { "id": "tag-detail-cta-1", "label": "All topics", "href": "/tags", "variant": "primary" }
+      },
+      "settings": { "paddingBottom": "xl" }
+    }
+  ]
+}

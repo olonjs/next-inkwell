@@ -1,0 +1,122 @@
+{
+  "id": "post-detail-page",
+  "slug": "posts/write-the-readme-first",
+  "collection": {
+    "source": "posts",
+    "paramKey": "slug"
+  },
+  "meta": {
+    "title": "Post — Inkwell Journal essay detail",
+    "description": "A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation."
+  },
+  "sections": [
+    {
+      "id": "post-detail-body",
+      "type": "post-detail",
+      "data": {
+        "backLabel": "All posts",
+        "item": {
+          "id": "write-the-readme-first",
+          "title": "Write the README first",
+          "excerpt": "If you cannot explain the tool before building it, you are about to build the wrong tool. A practice we stole from technical writers.",
+          "body": "Before any code exists, we write the README as if the project were finished: what it does, how you install it, the three commands you will actually use. It takes an hour and it kills bad ideas while they are still cheap.\n\nThe README-first draft exposes the seams. If the usage section needs four paragraphs of caveats, the interface is wrong. If the install steps require a diagram, the packaging is wrong.\n\nDocumentation is not what you write after the work. Often, it is the work.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=1600&q=80",
+            "alt": "Open notebook with a pen on a wooden desk beside a laptop"
+          },
+          "date": "2026-06-10",
+          "author": "Ada Osei",
+          "readingTime": "4 min",
+          "tags": [
+            "writing",
+            "process"
+          ]
+        }
+      },
+      "settings": {
+        "paddingTop": "xl"
+      }
+    },
+    {
+      "id": "post-detail-related-tags",
+      "type": "related-tags",
+      "data": {
+        "label": "Relations demo",
+        "title": "Filed under",
+        "emptyLabel": "This post has no topics yet.",
+        "item": {
+          "id": "write-the-readme-first",
+          "title": "Write the README first",
+          "excerpt": "If you cannot explain the tool before building it, you are about to build the wrong tool. A practice we stole from technical writers.",
+          "body": "Before any code exists, we write the README as if the project were finished: what it does, how you install it, the three commands you will actually use. It takes an hour and it kills bad ideas while they are still cheap.\n\nThe README-first draft exposes the seams. If the usage section needs four paragraphs of caveats, the interface is wrong. If the install steps require a diagram, the packaging is wrong.\n\nDocumentation is not what you write after the work. Often, it is the work.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=1600&q=80",
+            "alt": "Open notebook with a pen on a wooden desk beside a laptop"
+          },
+          "date": "2026-06-10",
+          "author": "Ada Osei",
+          "readingTime": "4 min",
+          "tags": [
+            "writing",
+            "process"
+          ]
+        },
+        "tags": {
+          "design": {
+            "id": "design",
+            "name": "Design",
+            "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+            "accent": "primary"
+          },
+          "engineering": {
+            "id": "engineering",
+            "name": "Engineering",
+            "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+            "accent": "accent"
+          },
+          "process": {
+            "id": "process",
+            "name": "Process",
+            "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+            "accent": "primary"
+          },
+          "writing": {
+            "id": "writing",
+            "name": "Writing",
+            "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+            "accent": "muted"
+          },
+          "tooling": {
+            "id": "tooling",
+            "name": "Tooling",
+            "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+            "accent": "accent"
+          },
+          "culture": {
+            "id": "culture",
+            "name": "Culture",
+            "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+            "accent": "muted"
+          }
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "post-detail-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "Keep reading",
+        "primaryCta": {
+          "id": "post-detail-cta-1",
+          "label": "Back to the archive",
+          "href": "/posts",
+          "variant": "primary"
+        }
+      },
+      "settings": {
+        "paddingBottom": "xl"
+      }
+    }
+  ]
+}

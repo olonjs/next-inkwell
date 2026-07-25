@@ -1,0 +1,107 @@
+{
+  "id": "about-page",
+  "slug": "about",
+  "meta": {
+    "title": "About Inkwell Journal and this collections demo",
+    "description": "Inkwell Journal is a working OlonJS demo: posts and tags live as separate collections, related through keys on the post side and resolved at render time."
+  },
+  "sections": [
+    {
+      "id": "about-hero",
+      "type": "page-hero",
+      "data": {
+        "label": "About",
+        "title": "A journal that is also a diagram",
+        "description": "Inkwell exists to show one architectural idea clearly: entities as collections, relations as keys, and rendering as resolution."
+      },
+      "settings": {
+        "paddingTop": "xl"
+      }
+    },
+    {
+      "id": "about-story",
+      "type": "content-block",
+      "data": {
+        "label": "How it works",
+        "title": "One source of truth per relation",
+        "paragraphs": [
+          {
+            "id": "about-p1",
+            "text": "Every essay in this journal is an entry in the posts collection, and every topic is an entry in the tags collection. A post declares its topics as an array of tag keys — that array is the only place the relation is stored."
+          },
+          {
+            "id": "about-p2",
+            "text": "The post page resolves those keys against the tags collection to render its topic chips. The tag page runs the relation in reverse: it filters the whole posts collection for entries carrying its key. Nothing is denormalized, so nothing can drift."
+          },
+          {
+            "id": "about-p3",
+            "text": "Everything you see — copy, images, colors, even this paragraph — is schema-driven data, editable in the OlonJS Studio without touching a line of component code."
+          }
+        ],
+        "image": {
+          "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600&q=80",
+          "alt": "Tall library shelves filled with books seen from below"
+        }
+      },
+      "settings": {}
+    },
+    {
+      "id": "about-stats",
+      "type": "stats-band",
+      "data": {
+        "label": "Under the hood",
+        "title": "What powers the demo",
+        "stats": [
+          {
+            "id": "about-stat-1",
+            "icon": "book-open",
+            "value": "2",
+            "label": "Collections: posts and tags"
+          },
+          {
+            "id": "about-stat-2",
+            "icon": "tag",
+            "value": "1",
+            "label": "Direction of stored truth: post to tags"
+          },
+          {
+            "id": "about-stat-3",
+            "icon": "sparkles",
+            "value": "2",
+            "label": "Directions rendered: posts to tags, tags to posts"
+          },
+          {
+            "id": "about-stat-4",
+            "icon": "rss",
+            "value": "7",
+            "label": "Pages, two of them dynamic collection routes"
+          }
+        ]
+      },
+      "settings": {}
+    },
+    {
+      "id": "about-cta",
+      "type": "cta-banner",
+      "data": {
+        "title": "See it in motion",
+        "description": "Open any post, tap a topic chip, and watch the inverse relation resolve on the tag page.",
+        "primaryCta": {
+          "id": "about-cta-1",
+          "label": "Open the archive",
+          "href": "/posts",
+          "variant": "primary"
+        },
+        "secondaryCta": {
+          "id": "about-cta-2",
+          "label": "Browse topics",
+          "href": "/tags",
+          "variant": "secondary"
+        }
+      },
+      "settings": {
+        "paddingBottom": "xl"
+      }
+    }
+  ]
+}
