@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0",
+  "kind": "olonjs-collection-contract",
+  "source": "posts",
+  "dataHref": "/collections/posts/posts.json",
+  "contractHref": "/schemas/collections/posts.schema.json",
+  "recordKeyMustMatchItemId": true,
+  "itemSchema": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string",
+        "description": "ui:text"
+      },
+      "excerpt": {
+        "type": "string",
+        "description": "ui:textarea"
+      },
+      "body": {
+        "type": "string",
+        "description": "ui:textarea"
+      },
+      "image": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "alt": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "url"
+        ],
+        "description": "ui:image-picker"
+      },
+      "date": {
+        "type": "string",
+        "description": "ui:text"
+      },
+      "author": {
+        "type": "string",
+        "description": "ui:text"
+      },
+      "readingTime": {
+        "type": "string",
+        "description": "ui:text"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string",
+                  "description": "ui:text"
+                },
+                "description": {
+                  "type": "string",
+                  "description": "ui:textarea"
+                },
+                "accent": {
+                  "type": "string",
+                  "enum": [
+                    "primary",
+                    "accent",
+                    "muted"
+                  ],
+                  "description": "ui:select"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "name",
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "$ref": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "$ref"
+              ]
+            }
+          ]
+        },
+        "description": "ui:list"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "title",
+      "excerpt",
+      "body",
+      "date",
+      "author",
+      "readingTime",
+      "tags"
+    ]
+  }
+}

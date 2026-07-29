@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "kind": "olonjs-mcp-manifest-index",
-  "generatedAt": "2026-07-25T17:03:23.904Z",
+  "generatedAt": "2026-07-29T14:58:27.171Z",
   "pages": [
     {
       "slug": "about",
@@ -301,6 +301,18 @@
         "tag-posts",
         "cta-banner"
       ]
+    }
+  ],
+  "collections": [
+    {
+      "source": "posts",
+      "dataHref": "/collections/posts/posts.json",
+      "contractHref": "/schemas/collections/posts.schema.json"
+    },
+    {
+      "source": "tags",
+      "dataHref": "/collections/tags/tags.json",
+      "contractHref": "/schemas/collections/tags.schema.json"
     }
   ]
 }

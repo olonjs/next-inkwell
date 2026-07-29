@@ -8,7 +8,10 @@
     "date": "2026-06-28",
     "author": "June Park",
     "readingTime": "6 min",
-    "tags": ["design", "process"]
+    "tags": [
+      { "$ref": "../tags/tags.json#/design" },
+      { "$ref": "../tags/tags.json#/process" }
+    ]
   },
   "the-boring-stack": {
     "id": "the-boring-stack",
@@ -19,7 +22,10 @@
     "date": "2026-06-19",
     "author": "Tomas Lindgren",
     "readingTime": "5 min",
-    "tags": ["engineering", "tooling"]
+    "tags": [
+      { "$ref": "../tags/tags.json#/engineering" },
+      { "$ref": "../tags/tags.json#/tooling" }
+    ]
   },
   "write-the-readme-first": {
     "id": "write-the-readme-first",
@@ -30,7 +36,10 @@
     "date": "2026-06-10",
     "author": "Ada Osei",
     "readingTime": "4 min",
-    "tags": ["writing", "process"]
+    "tags": [
+      { "$ref": "../tags/tags.json#/writing" },
+      { "$ref": "../tags/tags.json#/process" }
+    ]
   },
   "tokens-not-pixels": {
     "id": "tokens-not-pixels",
@@ -41,7 +50,11 @@
     "date": "2026-05-30",
     "author": "June Park",
     "readingTime": "7 min",
-    "tags": ["design", "engineering", "tooling"]
+    "tags": [
+      { "$ref": "../tags/tags.json#/design" },
+      { "$ref": "../tags/tags.json#/engineering" },
+      { "$ref": "../tags/tags.json#/tooling" }
+    ]
   },
   "shipping-on-fridays": {
     "id": "shipping-on-fridays",
@@ -52,7 +65,10 @@
     "date": "2026-05-18",
     "author": "Marco Bellini",
     "readingTime": "5 min",
-    "tags": ["culture", "process"]
+    "tags": [
+      { "$ref": "../tags/tags.json#/culture" },
+      { "$ref": "../tags/tags.json#/process" }
+    ]
   },
   "notes-on-code-review": {
     "id": "notes-on-code-review",
@@ -63,7 +79,10 @@
     "date": "2026-05-04",
     "author": "Ada Osei",
     "readingTime": "6 min",
-    "tags": ["engineering", "culture"]
+    "tags": [
+      { "$ref": "../tags/tags.json#/engineering" },
+      { "$ref": "../tags/tags.json#/culture" }
+    ]
   },
   "the-second-draft": {
     "id": "the-second-draft",
@@ -74,7 +93,9 @@
     "date": "2026-04-22",
     "author": "June Park",
     "readingTime": "4 min",
-    "tags": ["writing"]
+    "tags": [
+      { "$ref": "../tags/tags.json#/writing" }
+    ]
   },
   "tools-that-disappear": {
     "id": "tools-that-disappear",
@@ -85,6 +106,9 @@
     "date": "2026-04-09",
     "author": "Tomas Lindgren",
     "readingTime": "5 min",
-    "tags": ["tooling", "design"]
+    "tags": [
+      { "$ref": "../tags/tags.json#/tooling" },
+      { "$ref": "../tags/tags.json#/design" }
+    ]
   }
 }

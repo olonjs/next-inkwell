@@ -28,8 +28,18 @@
           "author": "Marco Bellini",
           "readingTime": "5 min",
           "tags": [
-            "culture",
-            "process"
+            {
+              "id": "culture",
+              "name": "Culture",
+              "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+              "accent": "muted"
+            },
+            {
+              "id": "process",
+              "name": "Process",
+              "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+              "accent": "primary"
+            }
           ]
         }
       },
@@ -57,8 +67,18 @@
           "author": "Marco Bellini",
           "readingTime": "5 min",
           "tags": [
-            "culture",
-            "process"
+            {
+              "id": "culture",
+              "name": "Culture",
+              "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+              "accent": "muted"
+            },
+            {
+              "id": "process",
+              "name": "Process",
+              "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+              "accent": "primary"
+            }
           ]
         },
         "tags": {

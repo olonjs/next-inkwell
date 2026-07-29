@@ -28,8 +28,18 @@
           "author": "Ada Osei",
           "readingTime": "4 min",
           "tags": [
-            "writing",
-            "process"
+            {
+              "id": "writing",
+              "name": "Writing",
+              "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+              "accent": "muted"
+            },
+            {
+              "id": "process",
+              "name": "Process",
+              "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+              "accent": "primary"
+            }
           ]
         }
       },
@@ -57,8 +67,18 @@
           "author": "Ada Osei",
           "readingTime": "4 min",
           "tags": [
-            "writing",
-            "process"
+            {
+              "id": "writing",
+              "name": "Writing",
+              "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+              "accent": "muted"
+            },
+            {
+              "id": "process",
+              "name": "Process",
+              "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+              "accent": "primary"
+            }
           ]
         },
         "tags": {

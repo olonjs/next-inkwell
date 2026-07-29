@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "kind": "olonjs-page-mcp-manifest",
-  "generatedAt": "2026-07-25T17:03:23.897Z",
+  "generatedAt": "2026-07-29T14:58:27.158Z",
   "slug": "tags/culture",
   "title": "Topic — Inkwell Journal posts by tag",
   "description": "A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.",

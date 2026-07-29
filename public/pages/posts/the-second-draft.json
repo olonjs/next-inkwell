@@ -28,7 +28,12 @@
           "author": "June Park",
           "readingTime": "4 min",
           "tags": [
-            "writing"
+            {
+              "id": "writing",
+              "name": "Writing",
+              "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+              "accent": "muted"
+            }
           ]
         }
       },
@@ -56,7 +61,12 @@
           "author": "June Park",
           "readingTime": "4 min",
           "tags": [
-            "writing"
+            {
+              "id": "writing",
+              "name": "Writing",
+              "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+              "accent": "muted"
+            }
           ]
         },
         "tags": {

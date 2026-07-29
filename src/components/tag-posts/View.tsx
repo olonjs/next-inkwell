@@ -1,4 +1,5 @@
 import React from 'react';
+import { postHasTag } from '@/collections/posts/tag-refs';
 import { Card, CardContent } from '@/components/ui/card';
 import type { TagPostsData, TagPostsSettings } from './types';
 
@@ -42,11 +43,10 @@ export const TagPosts: React.FC<{ data: TagPostsData; settings: TagPostsSettings
   };
   const t = SECTION_THEME_VARS[sectionTheme] ?? SECTION_THEME_VARS.dark;
 
-  // Inverse relation tag -> posts, computed from the single source of truth
-  // (post.tags) by filtering the full posts collection.
+  // Inverse relation tag -> posts from post.tags ($ref / resolved Tag).
   const tagId = data.item.id || '';
   const posts = Object.values(data.posts ?? {})
-    .filter((post) => (post.tags ?? []).includes(tagId))
+    .filter((post) => postHasTag(post.tags, tagId))
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
   return (

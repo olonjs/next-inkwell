@@ -1,5 +1,6 @@
 // Layout: Features=A (BENTO) default variant, C (TIMELINE) alternative variant
 import React from 'react';
+import { resolveTagId } from '@/collections/posts/tag-refs';
 import { Card, CardContent } from '@/components/ui/card';
 import type { PostsListData, PostsListSettings } from './types';
 
@@ -99,11 +100,14 @@ export const PostsList: React.FC<{ data: PostsListData; settings: PostsListSetti
                 </h3>
                 <p className="mt-2 max-w-[64ch] text-sm leading-relaxed text-[var(--local-text-muted)]">{post.excerpt}</p>
                 <div className="mt-3 flex flex-wrap gap-2">
-                  {post.tags.map((tagId) => (
-                    <span key={tagId} className="font-mono text-[0.65rem] uppercase tracking-widest text-[var(--local-accent)]">
-                      #{tagId}
-                    </span>
-                  ))}
+                  {(post.tags ?? []).map((tag, tagIdx) => {
+                    const tagId = resolveTagId(tag) ?? `tag-${tagIdx}`;
+                    return (
+                      <span key={tagId} className="font-mono text-[0.65rem] uppercase tracking-widest text-[var(--local-accent)]">
+                        #{tagId}
+                      </span>
+                    );
+                  })}
                 </div>
               </a>
             ))}
@@ -137,11 +141,14 @@ export const PostsList: React.FC<{ data: PostsListData; settings: PostsListSetti
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-[var(--local-text-muted)]">{post.excerpt}</p>
                     <div className="mt-4 flex flex-wrap gap-2">
-                      {post.tags.map((tagId) => (
-                        <span key={tagId} className="font-mono text-[0.65rem] uppercase tracking-widest text-[var(--local-accent)]">
-                          #{tagId}
-                        </span>
-                      ))}
+                      {(post.tags ?? []).map((tag, tagIdx) => {
+                        const tagId = resolveTagId(tag) ?? `tag-${tagIdx}`;
+                        return (
+                          <span key={tagId} className="font-mono text-[0.65rem] uppercase tracking-widest text-[var(--local-accent)]">
+                            #{tagId}
+                          </span>
+                        );
+                      })}
                     </div>
                   </CardContent>
                 </Card>

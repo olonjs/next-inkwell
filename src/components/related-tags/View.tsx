@@ -1,4 +1,5 @@
 import React from 'react';
+import { isResolvedTag } from '@/collections/posts/tag-refs';
 import type { Tag } from '@/collections/tags';
 import type { RelatedTagsData, RelatedTagsSettings } from './types';
 
@@ -48,10 +49,15 @@ export const RelatedTags: React.FC<{ data: RelatedTagsData; settings: RelatedTag
   };
   const t = SECTION_THEME_VARS[sectionTheme] ?? SECTION_THEME_VARS.dark;
 
-  // Relation resolution: post.tags is an array of tag collection keys.
+  // After bake/runtime resolve, post.tags are expanded Tag objects.
+  // Fall back to the tags map for unresolved keys if present.
   const tagMap = data.tags ?? {};
   const related = (data.item.tags ?? [])
-    .map((tagId) => tagMap[tagId])
+    .map((tag) => {
+      if (isResolvedTag(tag)) return tag;
+      if (typeof tag === 'string') return tagMap[tag];
+      return undefined;
+    })
     .filter((tag): tag is Tag => Boolean(tag));
 
   return (

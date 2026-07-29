@@ -281,7 +281,51 @@
               "tags": {
                 "type": "array",
                 "items": {
-                  "type": "string"
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string",
+                          "description": "ui:text"
+                        },
+                        "description": {
+                          "type": "string",
+                          "description": "ui:textarea"
+                        },
+                        "accent": {
+                          "type": "string",
+                          "enum": [
+                            "primary",
+                            "accent",
+                            "muted"
+                          ],
+                          "description": "ui:select"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                        "id",
+                        "name",
+                        "description"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "$ref": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                        "$ref"
+                      ]
+                    }
+                  ]
                 },
                 "description": "ui:list"
               }

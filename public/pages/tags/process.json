@@ -52,8 +52,18 @@
             "author": "June Park",
             "readingTime": "6 min",
             "tags": [
-              "design",
-              "process"
+              {
+                "id": "design",
+                "name": "Design",
+                "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+                "accent": "primary"
+              },
+              {
+                "id": "process",
+                "name": "Process",
+                "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+                "accent": "primary"
+              }
             ]
           },
           "the-boring-stack": {
@@ -69,8 +79,18 @@
             "author": "Tomas Lindgren",
             "readingTime": "5 min",
             "tags": [
-              "engineering",
-              "tooling"
+              {
+                "id": "engineering",
+                "name": "Engineering",
+                "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+                "accent": "accent"
+              },
+              {
+                "id": "tooling",
+                "name": "Tooling",
+                "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+                "accent": "accent"
+              }
             ]
           },
           "write-the-readme-first": {
@@ -86,8 +106,18 @@
             "author": "Ada Osei",
             "readingTime": "4 min",
             "tags": [
-              "writing",
-              "process"
+              {
+                "id": "writing",
+                "name": "Writing",
+                "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+                "accent": "muted"
+              },
+              {
+                "id": "process",
+                "name": "Process",
+                "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+                "accent": "primary"
+              }
             ]
           },
           "tokens-not-pixels": {
@@ -103,9 +133,24 @@
             "author": "June Park",
             "readingTime": "7 min",
             "tags": [
-              "design",
-              "engineering",
-              "tooling"
+              {
+                "id": "design",
+                "name": "Design",
+                "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+                "accent": "primary"
+              },
+              {
+                "id": "engineering",
+                "name": "Engineering",
+                "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+                "accent": "accent"
+              },
+              {
+                "id": "tooling",
+                "name": "Tooling",
+                "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+                "accent": "accent"
+              }
             ]
           },
           "shipping-on-fridays": {
@@ -121,8 +166,18 @@
             "author": "Marco Bellini",
             "readingTime": "5 min",
             "tags": [
-              "culture",
-              "process"
+              {
+                "id": "culture",
+                "name": "Culture",
+                "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+                "accent": "muted"
+              },
+              {
+                "id": "process",
+                "name": "Process",
+                "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
+                "accent": "primary"
+              }
             ]
           },
           "notes-on-code-review": {
@@ -138,8 +193,18 @@
             "author": "Ada Osei",
             "readingTime": "6 min",
             "tags": [
-              "engineering",
-              "culture"
+              {
+                "id": "engineering",
+                "name": "Engineering",
+                "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+                "accent": "accent"
+              },
+              {
+                "id": "culture",
+                "name": "Culture",
+                "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+                "accent": "muted"
+              }
             ]
           },
           "the-second-draft": {
@@ -155,7 +220,12 @@
             "author": "June Park",
             "readingTime": "4 min",
             "tags": [
-              "writing"
+              {
+                "id": "writing",
+                "name": "Writing",
+                "description": "Technical writing as a first-class engineering skill: READMEs, review comments, and second drafts.",
+                "accent": "muted"
+              }
             ]
           },
           "tools-that-disappear": {
@@ -171,8 +241,18 @@
             "author": "Tomas Lindgren",
             "readingTime": "5 min",
             "tags": [
-              "tooling",
-              "design"
+              {
+                "id": "tooling",
+                "name": "Tooling",
+                "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+                "accent": "accent"
+              },
+              {
+                "id": "design",
+                "name": "Design",
+                "description": "Interfaces, typography, tokens and the discipline of visual decisions that survive a redesign.",
+                "accent": "primary"
+              }
             ]
           }
         }

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "kind": "olonjs-page-mcp-manifest",
-  "generatedAt": "2026-07-25T17:03:23.895Z",
+  "generatedAt": "2026-07-29T14:58:27.155Z",
   "slug": "tags",
   "title": "Topics — browse Inkwell Journal by tag",
   "description": "Six topics spanning design, engineering, process, writing, tooling and culture. Each tag page computes its own post list from the posts-to-tags relation.",

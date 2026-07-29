@@ -28,8 +28,18 @@
           "author": "Tomas Lindgren",
           "readingTime": "5 min",
           "tags": [
-            "engineering",
-            "tooling"
+            {
+              "id": "engineering",
+              "name": "Engineering",
+              "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+              "accent": "accent"
+            },
+            {
+              "id": "tooling",
+              "name": "Tooling",
+              "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+              "accent": "accent"
+            }
           ]
         }
       },
@@ -57,8 +67,18 @@
           "author": "Tomas Lindgren",
           "readingTime": "5 min",
           "tags": [
-            "engineering",
-            "tooling"
+            {
+              "id": "engineering",
+              "name": "Engineering",
+              "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+              "accent": "accent"
+            },
+            {
+              "id": "tooling",
+              "name": "Tooling",
+              "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+              "accent": "accent"
+            }
           ]
         },
         "tags": {

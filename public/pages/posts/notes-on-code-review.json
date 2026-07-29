@@ -28,8 +28,18 @@
           "author": "Ada Osei",
           "readingTime": "6 min",
           "tags": [
-            "engineering",
-            "culture"
+            {
+              "id": "engineering",
+              "name": "Engineering",
+              "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+              "accent": "accent"
+            },
+            {
+              "id": "culture",
+              "name": "Culture",
+              "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+              "accent": "muted"
+            }
           ]
         }
       },
@@ -57,8 +67,18 @@
           "author": "Ada Osei",
           "readingTime": "6 min",
           "tags": [
-            "engineering",
-            "culture"
+            {
+              "id": "engineering",
+              "name": "Engineering",
+              "description": "Building software that stays boring in production: architecture, reliability and the craft of the diff.",
+              "accent": "accent"
+            },
+            {
+              "id": "culture",
+              "name": "Culture",
+              "description": "The habits behind the code: quiet deploys, kind reviews, and praising the fix nobody noticed.",
+              "accent": "muted"
+            }
           ]
         },
         "tags": {
