@@ -23,7 +23,7 @@
         "title": "Posts on this topic",
         "emptyLabel": "No posts carry this tag yet.",
         "item": { "$ref": "collection:current" },
-        "posts": { "$ref": "../collections/posts/posts.json" }
+        "posts": { "$ref": "../../collections/posts/posts.json" }
       },
       "settings": {}
     },

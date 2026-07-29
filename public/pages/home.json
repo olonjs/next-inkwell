@@ -70,6 +70,12 @@
                 "name": "Process",
                 "description": "How work actually gets shipped — constraints, drafts, deploys and the rituals that keep teams honest.",
                 "accent": "primary"
+              },
+              {
+                "id": "tooling",
+                "name": "Tooling",
+                "description": "The instruments of the trade — editors, pipelines, build systems — and when they should disappear.",
+                "accent": "accent"
               }
             ]
           },

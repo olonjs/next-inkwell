@@ -270,7 +270,7 @@
                   }
                 ]
               },
-              "description": "ui:list"
+              "description": "ui:collection-ref:tags"
             }
           },
           "additionalProperties": false,
@@ -409,7 +409,7 @@
                   }
                 ]
               },
-              "description": "ui:list"
+              "description": "ui:collection-ref:tags"
             }
           },
           "additionalProperties": false,

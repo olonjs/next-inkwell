@@ -360,7 +360,7 @@
                     }
                   ]
                 },
-                "description": "ui:list"
+                "description": "ui:collection-ref:tags"
               }
             },
             "additionalProperties": false,

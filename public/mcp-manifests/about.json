@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "kind": "olonjs-page-mcp-manifest",
-  "generatedAt": "2026-07-29T14:58:27.123Z",
+  "generatedAt": "2026-07-29T16:37:46.140Z",
   "slug": "about",
   "title": "About Inkwell Journal and this collections demo",
   "description": "Inkwell Journal is a working OlonJS demo: posts and tags live as separate collections, related through keys on the post side and resolved at render time.",

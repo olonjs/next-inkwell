@@ -24,7 +24,7 @@
         "title": "Filed under",
         "emptyLabel": "This post has no topics yet.",
         "item": { "$ref": "collection:current" },
-        "tags": { "$ref": "../collections/tags/tags.json" }
+        "tags": { "$ref": "../../collections/tags/tags.json" }
       },
       "settings": {}
     },

@@ -20,13 +20,13 @@ An editorial journal about design, engineering and process, built on OlonJS coll
   An editorial journal about design, engineering and process, built on OlonJS collections: every post and every tag is a first-class entity with its own page.
   *Contract:* `/schemas/home.schema.json` | *Manifest:* `/mcp-manifests/home.json`
 
-- **[Post — Inkwell Journal essay detail](/post-detail)** (`post-detail`)
-  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
-  *Contract:* `/schemas/post-detail.schema.json` | *Manifest:* `/mcp-manifests/post-detail.json`
-
 - **[All posts — Inkwell Journal essay archive](/posts)** (`posts`)
   The complete archive of Inkwell Journal essays on design, engineering, writing and process, rendered as a timeline from the posts collection.
   *Contract:* `/schemas/posts.schema.json` | *Manifest:* `/mcp-manifests/posts.json`
+
+- **[Post — Inkwell Journal essay detail](/posts/[slug])** (`posts/[slug]`)
+  A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
+  *Contract:* `/schemas/posts/[slug].schema.json` | *Manifest:* `/mcp-manifests/posts/[slug].json`
 
 - **[Post — Inkwell Journal essay detail](/posts/designing-with-constraints)** (`posts/designing-with-constraints`)
   A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
@@ -60,13 +60,13 @@ An editorial journal about design, engineering and process, built on OlonJS coll
   A single essay from the Inkwell Journal posts collection, with its related topics resolved live from the posts-to-tags relation.
   *Contract:* `/schemas/posts/write-the-readme-first.schema.json` | *Manifest:* `/mcp-manifests/posts/write-the-readme-first.json`
 
-- **[Topic — Inkwell Journal posts by tag](/tag-detail)** (`tag-detail`)
-  A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
-  *Contract:* `/schemas/tag-detail.schema.json` | *Manifest:* `/mcp-manifests/tag-detail.json`
-
 - **[Topics — browse Inkwell Journal by tag](/tags)** (`tags`)
   Six topics spanning design, engineering, process, writing, tooling and culture. Each tag page computes its own post list from the posts-to-tags relation.
   *Contract:* `/schemas/tags.schema.json` | *Manifest:* `/mcp-manifests/tags.json`
+
+- **[Topic — Inkwell Journal posts by tag](/tags/[slug])** (`tags/[slug]`)
+  A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
+  *Contract:* `/schemas/tags/[slug].schema.json` | *Manifest:* `/mcp-manifests/tags/[slug].json`
 
 - **[Topic — Inkwell Journal posts by tag](/tags/culture)** (`tags/culture`)
   A single topic from the tags collection, with every matching essay computed live by filtering the posts collection on the current tag key.
