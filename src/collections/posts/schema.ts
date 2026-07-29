@@ -18,7 +18,8 @@ export const PostSchema = BaseCollectionItem.extend({
   // Relation posts -> tags via $ref pointers (SOT on the post side).
   // Authored: { $ref: "../tags/tags.json#/<id>" }; after resolve: Tag objects.
   // Inverse (tags -> posts) is computed at render time by filtering.
-  tags: z.array(z.union([TagSchema, CollectionPointerSchema])).describe('ui:list'),
+  // Studio: ui:collection-ref:tags → one dropdown per relation (multi-ref).
+  tags: z.array(z.union([TagSchema, CollectionPointerSchema])).describe('ui:collection-ref:tags'),
 });
 
 export const PostsCollectionSchema = z.record(z.string(), PostSchema);

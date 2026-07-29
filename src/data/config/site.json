@@ -6,9 +6,13 @@
       "logoText": "Inkwell",
       "logoHighlight": "journal",
       "announcement": "Collections demo: posts and tags, linked both ways",
-      "menu": { "$ref": "../config/menu.json#/main" }
+      "menu": {
+        "$ref": "../config/menu.json#/main"
+      }
     },
-    "settings": { "sticky": true }
+    "settings": {
+      "sticky": true
+    }
   },
   "footer": {
     "id": "global-footer",
@@ -18,9 +22,15 @@
       "tagline": "Notes on the craft of making software. An OlonJS demo tenant showing collections and cross-collection relations.",
       "email": "hello@inkwell-journal.example",
       "copyright": "© 2026 Inkwell Journal. Written slowly, shipped quietly.",
-      "menu": { "$ref": "../config/menu.json#/footer" }
+      "menu": {
+        "$ref": "../config/menu.json#/footer"
+      }
     },
-    "settings": { "showLogo": true }
+    "settings": {
+      "showLogo": true
+    }
   },
-  "identity": { "title": "Inkwell Journal" }
+  "identity": {
+    "title": "Inkwell Journal"
+  }
 }
